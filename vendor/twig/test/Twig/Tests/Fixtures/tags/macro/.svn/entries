@@ -1,0 +1,70 @@
+10
+
+dir
+0
+https://github.com/clemherreman/behatdemo/vendor/twig/test/Twig/Tests/Fixtures/tags/macro
+https://github.com/clemherreman/behatdemo
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bdbdd3b9-e4bc-b75e-2943-ce57b7db7bff
+
+basic.test
+file
+
+
+
+add
+
+external.test
+file
+
+
+
+add
+
+from.test
+file
+
+
+
+add
+
+self_import.test
+file
+
+
+
+add
+
+endmacro_name.test
+file
+
+
+
+add
+
+special_chars.test
+file
+
+
+
+add
+

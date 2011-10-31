@@ -1,0 +1,112 @@
+10
+
+dir
+0
+https://github.com/clemherreman/behatdemo/vendor/twig/test/Twig/Tests/Fixtures/expressions
+https://github.com/clemherreman/behatdemo
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bdbdd3b9-e4bc-b75e-2943-ce57b7db7bff
+
+binary.test
+file
+
+
+
+add
+
+array_call.test
+file
+
+
+
+add
+
+comparison.test
+file
+
+
+
+add
+
+grouping.test
+file
+
+
+
+add
+
+magic_call.test
+file
+
+
+
+add
+
+method_call.test
+file
+
+
+
+add
+
+postfix.test
+file
+
+
+
+add
+
+dotdot.test
+file
+
+
+
+add
+
+array.test
+file
+
+
+
+add
+
+unary.test
+file
+
+
+
+add
+
+literals.test
+file
+
+
+
+add
+
+ternary_operator.test
+file
+
+
+
+add
+

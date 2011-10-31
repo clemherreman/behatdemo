@@ -1,0 +1,182 @@
+10
+
+dir
+0
+https://github.com/clemherreman/behatdemo/vendor/twig/lib/Twig/Node/Expression/Binary
+https://github.com/clemherreman/behatdemo
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bdbdd3b9-e4bc-b75e-2943-ce57b7db7bff
+
+BitwiseAnd.php
+file
+
+
+
+add
+
+Greater.php
+file
+
+
+
+add
+
+Sub.php
+file
+
+
+
+add
+
+Range.php
+file
+
+
+
+add
+
+Power.php
+file
+
+
+
+add
+
+Mul.php
+file
+
+
+
+add
+
+LessEqual.php
+file
+
+
+
+add
+
+BitwiseXor.php
+file
+
+
+
+add
+
+And.php
+file
+
+
+
+add
+
+In.php
+file
+
+
+
+add
+
+Less.php
+file
+
+
+
+add
+
+BitwiseOr.php
+file
+
+
+
+add
+
+Concat.php
+file
+
+
+
+add
+
+Equal.php
+file
+
+
+
+add
+
+Mod.php
+file
+
+
+
+add
+
+Or.php
+file
+
+
+
+add
+
+GreaterEqual.php
+file
+
+
+
+add
+
+Div.php
+file
+
+
+
+add
+
+FloorDiv.php
+file
+
+
+
+add
+
+NotIn.php
+file
+
+
+
+add
+
+Add.php
+file
+
+
+
+add
+
+NotEqual.php
+file
+
+
+
+add
+

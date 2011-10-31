@@ -1,0 +1,168 @@
+10
+
+dir
+0
+https://github.com/clemherreman/behatdemo/vendor/twig/lib/Twig/Node
+https://github.com/clemherreman/behatdemo
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bdbdd3b9-e4bc-b75e-2943-ce57b7db7bff
+
+AutoEscape.php
+file
+
+
+
+add
+
+Block.php
+file
+
+
+
+add
+
+Set.php
+file
+
+
+
+add
+
+Print.php
+file
+
+
+
+add
+
+Body.php
+file
+
+
+
+add
+
+If.php
+file
+
+
+
+add
+
+Sandbox.php
+file
+
+
+
+add
+
+Expression.php
+file
+
+
+
+add
+
+Macro.php
+file
+
+
+
+add
+
+BlockReference.php
+file
+
+
+
+add
+
+Expression
+dir
+
+
+
+add
+
+Import.php
+file
+
+
+
+add
+
+SandboxedModule.php
+file
+
+
+
+add
+
+SetTemp.php
+file
+
+
+
+add
+
+Spaceless.php
+file
+
+
+
+add
+
+Include.php
+file
+
+
+
+add
+
+SandboxedPrint.php
+file
+
+
+
+add
+
+Text.php
+file
+
+
+
+add
+
+Module.php
+file
+
+
+
+add
+
+For.php
+file
+
+
+
+add
+

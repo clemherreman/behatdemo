@@ -1,0 +1,133 @@
+10
+
+dir
+0
+https://github.com/clemherreman/behatdemo/vendor/twig/test/Twig/Tests/Fixtures/tags
+https://github.com/clemherreman/behatdemo
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bdbdd3b9-e4bc-b75e-2943-ce57b7db7bff
+
+from.test
+file
+
+
+
+add
+
+spaceless
+dir
+
+
+
+add
+
+include
+dir
+
+
+
+add
+
+filter
+dir
+
+
+
+add
+
+for
+dir
+
+
+
+add
+
+raw
+dir
+
+
+
+add
+
+inheritance
+dir
+
+
+
+add
+
+autoescape
+dir
+
+
+
+add
+
+block
+dir
+
+
+
+add
+
+set
+dir
+
+
+
+add
+
+use
+dir
+
+
+
+add
+
+if
+dir
+
+
+
+add
+
+macro
+dir
+
+
+
+add
+
+trim_block.test
+file
+
+
+
+add
+
+special_chars.test
+file
+
+
+
+add
+

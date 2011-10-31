@@ -1,0 +1,105 @@
+10
+
+dir
+0
+https://github.com/clemherreman/behatdemo/vendor/twig/test/Twig/Tests/Node/Expression
+https://github.com/clemherreman/behatdemo
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bdbdd3b9-e4bc-b75e-2943-ce57b7db7bff
+
+ConstantTest.php
+file
+
+
+
+add
+
+ParentTest.php
+file
+
+
+
+add
+
+GetAttrTest.php
+file
+
+
+
+add
+
+ArrayTest.php
+file
+
+
+
+add
+
+Binary
+dir
+
+
+
+add
+
+NameTest.php
+file
+
+
+
+add
+
+ConditionalTest.php
+file
+
+
+
+add
+
+AssignNameTest.php
+file
+
+
+
+add
+
+FilterTest.php
+file
+
+
+
+add
+
+FunctionTest.php
+file
+
+
+
+add
+
+Unary
+dir
+
+
+
+add
+

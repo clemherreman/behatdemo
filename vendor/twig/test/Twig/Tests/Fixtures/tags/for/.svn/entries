@@ -1,0 +1,112 @@
+10
+
+dir
+0
+https://github.com/clemherreman/behatdemo/vendor/twig/test/Twig/Tests/Fixtures/tags/for
+https://github.com/clemherreman/behatdemo
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bdbdd3b9-e4bc-b75e-2943-ce57b7db7bff
+
+inner_variables.test
+file
+
+
+
+add
+
+context.test
+file
+
+
+
+add
+
+objects_countable.test
+file
+
+
+
+add
+
+loop_context_local.test
+file
+
+
+
+add
+
+recursive.test
+file
+
+
+
+add
+
+else.test
+file
+
+
+
+add
+
+objects.test
+file
+
+
+
+add
+
+nested_else.test
+file
+
+
+
+add
+
+keys.test
+file
+
+
+
+add
+
+keys_and_values.test
+file
+
+
+
+add
+
+loop_context.test
+file
+
+
+
+add
+
+values.test
+file
+
+
+
+add
+

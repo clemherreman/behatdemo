@@ -1,0 +1,77 @@
+10
+
+dir
+0
+https://github.com/clemherreman/behatdemo/vendor/twig/test/Twig/Tests/Fixtures/tags/include
+https://github.com/clemherreman/behatdemo
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bdbdd3b9-e4bc-b75e-2943-ce57b7db7bff
+
+basic.test
+file
+
+
+
+add
+
+only.test
+file
+
+
+
+add
+
+with_variables.test
+file
+
+
+
+add
+
+ignore_missing.test
+file
+
+
+
+add
+
+expression.test
+file
+
+
+
+add
+
+template_instance.test
+file
+
+
+
+add
+
+templates_as_array.test
+file
+
+
+
+add
+
