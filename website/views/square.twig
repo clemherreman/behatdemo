@@ -1,0 +1,31 @@
+{% extends "layout.twig" %}
+{% block pagetitle %}
+  A little Behat demo
+{% endblock %}
+
+{% block contenttitle %}
+  Calculating a square perimeter
+{% endblock %}
+
+{% block bodyclass %}square{% endblock %}
+
+{% block content %}
+  <form method="post" action"/square">
+    <div class="clearfix">
+      <label for="side">Side size</label>
+      <div class="input">
+        <input class="span2" type="text" name="side" value="{{ side }}" />
+        <span class="help-inline">In cm</span>
+      </div>
+    </div>
+    <div class="actions">
+      <input type="submit" class="btn primary" value="Calculate" />
+    </div>
+  </form>
+{% endblock %}
+
+{% block sidebar %}
+  {% if perimeter %}
+      Périmeter : {{ perimeter }} cm
+  {% endif %}
+{% endblock %}

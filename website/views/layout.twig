@@ -2,12 +2,13 @@
 <html>
   <head>
     {% block head %}
+      <meta charset="utf-8" />
       <link rel="stylesheet" href="/css/bootstrap.css" />
       <link rel="stylesheet" href="/css/design.css" />
       <title>{% block title %}{% endblock %} - Behat Demo</title>
     {% endblock %}
   </head>
-  <body>
+  <body class="{% block bodyclass %}{% endblock %}">
     <div class="container">
       <div class="content">
         <div class="page-header">
@@ -15,7 +16,18 @@
         </div>
         <div class="row">
           <div class="span10">
-            {% if contenttitle %} <h2>{% block contenttitle %}{% endblock %}</h2>{% endif %}
+            <h2>{% block contenttitle %}{% endblock %}</h2>
+            {% if errors %}
+              <div class="alert-message block-message error">
+                <p><strong>Oh snap! You got an error!</strong> Change this and that and try again.</p>
+                <ul>
+                  {% for error in errors %}
+                  <li>{{ error|escape }}</li>
+                  {% endfor %}
+                </ul>
+              </div>      
+            {% endif %}
+            
             <div id="main-content">{% block content %}{% endblock %}</div>
           </div>
           <div class="span4">

@@ -1,3 +1,5 @@
+
+/* ------- Layout --------*/
 html, body {
     background-color: #EEEEEE;
 }
@@ -5,6 +7,7 @@ html, body {
 .container {
     width: 820px;
 }
+
 .content {
     background-color: #FFFFFF;
     border-radius: 0 0 6px 6px;
@@ -12,16 +15,26 @@ html, body {
     margin: 0 -20px;
     padding: 20px;
 }
+
 .page-header {
     background-color: #F5F5F5;
     margin: -20px -20px 20px;
     padding: 20px 20px 10px;
 }
+
 .content .span10, .content .span4 {
     min-height: 500px;
 }
+
 .content .span4 {
     border-left: 1px solid #EEEEEE;
     margin-left: 0;
     padding-left: 19px;
 }
+
+.content form {
+  margin-top: 60px;
+}
+
+/* ------ Square ------ */
+
