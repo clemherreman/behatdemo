@@ -26,6 +26,10 @@ $app->post('/square', function() use($app) {
   {
     $errors[] = 'Please input a number as side size';
   }
+  if ($side == 0)
+  {
+    $errors[] = "Please input a positive number a side size";
+  }
   
   $perimeter = empty($errors) ? $side*$side : null;
   
