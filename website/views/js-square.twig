@@ -1,0 +1,42 @@
+{% extends "layout.twig" %}
+{% block pagetitle %}
+  A little Behat demo
+{% endblock %}
+
+{% block contenttitle %}
+  Calculating a square perimeter <small>with motherfucking Javascript!</small>
+{% endblock %}
+
+{% block bodyclass %}square{% endblock %}
+
+{% block content %}
+  <form method="post" action"/square">
+    <div class="clearfix">
+      <label for="side">Side size</label>
+      <div class="input">
+        <input class="span2" type="text" id="side" name="side" value="{{ side }}" />
+        <span class="help-inline">In cm</span>
+      </div>
+    </div>
+    <div class="actions">
+      <input id="submit" type="submit" class="btn primary" value="Calculate" />
+    </div>
+  </form>
+  <strong><a href="/square">Go to non-Javascript version</a></strong>
+  <script type="text/javascript">
+    (function($) {
+      $('#submit').click(function(e) { 
+        e.preventDefault();
+        var side = parseFloat($('#side').val()) || NaN;
+        var perimeter = side*4.0 || 'Error';
+        $('#sidebar').text('Perimeter (using js): '+perimeter);
+      });
+    })(jQuery);
+  </script>
+{% endblock %}
+
+{% block sidebar %}
+  {% if perimeter %}
+      Perimeter: {{ perimeter }} cm
+  {% endif %}
+{% endblock %}

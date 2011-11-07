@@ -3,20 +3,25 @@ Feature: Square perimeter
   As a website user
   I need to be able to input side size of a square and get its perimeter
   
-  Scenario: Inputting a valid side size
+  Scenario Outline: Inputting a valids side sizes
     Given I am on "/square"
-    When I fill in "side" with "6"
+    When I fill in "side" with "<size>"
     And I press "Calculate"
-    Then I should see "Perimeter: 36 cm"
+    Then I should see "Perimeter: <perimeter> cm"
 
+    Examples: 
+      | size | perimeter |
+      |  6   |  24       |
+      |  2.5 |  10       |
+      
   Scenario: Inputting a valid side size
     Given I am on "/square"
     When I fill in "side" with "0"
     And I press "Calculate"
     Then I should see an ".error" element
-
+  
   Scenario: Inputting a valid side size
     Given I am on "/square"
     When I fill in "side" with "not a number"
     And I press "Calculate"
-    Then I should see an ".error" element
+    Then I should see an ".error" element    

@@ -31,13 +31,21 @@ $app->post('/square', function() use($app) {
     $errors[] = "Please input a positive number a side size";
   }
   
-  $perimeter = empty($errors) ? $side*$side : null;
+  $perimeter = empty($errors) ? $side*4 : null;
   
   return $app['twig']->render('square.twig', array(
     'errors'    => $errors,
     'perimeter' => $perimeter,
     'side'      => $side,
   ));
+});
+
+$app->get('/js-square', function() use($app) { 
+    return $app['twig']->render('js-square.twig', array(
+        'errors'    => false,
+        'perimeter' => false,
+        'side'      => false,
+    ));
 });
 
 $app->run(); 
