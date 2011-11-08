@@ -25,11 +25,11 @@
   <strong><a href="/square">Go to non-Javascript version</a></strong>
   <script type="text/javascript">
     (function($) {
-      $('#submit').click(function(e) { 
+      $('form').submit(function(e) { 
         e.preventDefault();
-        var side = parseFloat($('#side').val()) || NaN;
+        var side = parseFloat(jQuery('#side').val()) || NaN;
         var perimeter = side*4.0 || 'Error';
-        $('#sidebar').text('Perimeter (using js): '+perimeter);
+        $('#sidebar').text('Perimeter (using js): '+perimeter+ ' cm');
       });
     })(jQuery);
   </script>

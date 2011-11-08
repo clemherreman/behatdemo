@@ -14,12 +14,20 @@ require_once realpath(__DIR__) . '/../../vendor/mink/autoload.php.dist';
 */
 class FeatureContext extends Behat\Mink\Behat\Context\MinkContext
 {
-    /**
-* @Then /^I wait for the suggestion box to appear$/
-*/
+    /**  
+     * @Then /^I wait for the result to appear$/
+     */
     public function iWaitForTheSuggestionBoxToAppear()
     {
-        $this->getSession()->wait(5000, "$('.suggestions-results').children().length > 0");
+        $this->getSession()->wait(10000, "$('#sidebar').text() != ''");
+    }
+    
+    /**  
+     * @Then /^I wait a little$/
+     */
+    public function iWaitALittle()
+    {
+        $this->getSession()->wait(10000, "false");
     }
 }
 
